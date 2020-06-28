@@ -1,2 +1,2 @@
-# tradingjournal
-Documenting my trading journey.
+# proprietary_trading
+Trading Journal
