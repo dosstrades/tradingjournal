@@ -1,4 +1,4 @@
-<img align='left' src='./files/empiric_investments_square_logo_transparent.png' width='11%'>
+<img align='left' src='./files/doss_trades_logo-white_background.jpg' width='11%'>
                       
 # Strategic Asset Allocation
 
