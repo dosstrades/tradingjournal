@@ -146,10 +146,6 @@
 
 <br/>
 
----
-
-<br/>
-
 ### Long / Short Commodity Futures
 
 - Investment Universe 
