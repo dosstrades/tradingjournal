@@ -28,7 +28,9 @@
 - Rebalance if 
     - Any allocation changes by more than ±50%. __OR__
     - Between 3rd week of March and 2nd Week of April. (Tax Loss Harvesting)
-- Benchmark - Nifty Hybrid 50:50.
+- Benchmark
+    - Indian Assets - Nifty Hybrid 50:50.
+    - International Assets - 60/40.
 
 <br/>
 
