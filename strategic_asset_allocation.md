@@ -78,8 +78,8 @@
 ### Long Volatility Options
 
 - Instrument - Nifty Options <br/> See India Vix chart to confirm if it is suitable to go long vol.
-- Strategy - Long Strangle.
-    - ATM Strangle.
+- Strategy - Long Straddle.
+    - ATM Straddle.
     - 6 - 12 Months DTE.
 - Position Sizing
     - Notional value as per allocation.
