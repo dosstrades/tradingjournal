@@ -150,7 +150,8 @@
 
 ### Long / Short Commodity Futures
 
-- Investment Universe 
+- Investment Universe
+    - Gold.
     - Crude Oil.
     - Natural Gas.
     - Silver.
