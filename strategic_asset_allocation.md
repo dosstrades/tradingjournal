@@ -5,16 +5,25 @@
 <br/>
 <br/>
 
-| **Strategy**                            |**Allocation**|
+| **Geography** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                            |**Allocation**|
 |:----------------------------------------|:------------:|
-| Fixed Income                            |     ≈ 25%    |
-| Short Volatility                        |     ≈ 15%    |
-| Top 25 Strategy                         |     ≈ 10%    |
-| TF and Dual Momentum                    |     ≈ 10%    |
-| Long / Short Equity Index Futures       |     ≈ 05%    |
-| Long / Short Commodity Futures          |     ≈ 05%    |
-| Discretionary (Stocks)                  |     ≈ 05%    |
-| Others                                  |     ≈ 25%    |
+| Indian Assets                           |     ≈ 80%    |
+| International Assets                    |     ≈ 20%    |
+
+| **India Strategy** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                     |**Allocation**|
+|:----------------------------------------|:------------:|
+| Fixed Income                            |     ≈ 20%    |
+| Short Volatility Options                |     ≈ 15%    |
+| Long Volatility Options (Notional)      |     ≈ 15%    |
+| Equity (Long Only)                      |     ≈ 15%    |
+| Trend Following and Dual Momentum       |     ≈ 10%    |
+| L/S Equity Index Futures                |     ≈ 10%    |
+| L/S Commodity Futures                   |     ≈ 10%    |
+| Discretionary                           |     ≈ 05%    |
+
+| **International Strategy** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;        |**Allocation**|
+|:----------------------------------------|:------------:|
+| TAA                                     |     ≈ 100%   |
 
 - Rebalance if 
     - Any allocation changes by more than ±50%. __OR__
@@ -39,7 +48,7 @@
 
 <br/>
 
-### Short Volatility
+### Short Volatility Options
 
 - Instrument - Nifty Options <br/> See India Vix chart to confirm if it suitable to go short vol.
 - Strategy - Short Strangle.
@@ -54,10 +63,10 @@
 - Stop Loss
     - Discretion of the trader. Hard SL at 5X the premium received.
 - Margin
-    - Keep cash for a 2σ move.
+    - Keep cash for a 1σ move.
     - Rest in liquidbees.
 - Adjustments
-    - First adjustment generally at 1σ level.
+    - First adjustment generally when the tested side delta become 0.30.
     - Maximum 2.
 
 <br/>
@@ -66,7 +75,25 @@
 
 <br/>
 
-### Top 25 Strategy
+### Long Volatility Options
+
+- Instrument - Nifty Options <br/> See India Vix chart to confirm if it is suitable to go long vol.
+- Strategy - Long Strangle.
+    - ATM Strangle.
+    - 6 - 12 Months DTE.
+- Position Sizing
+    - Notional value as per allocation.
+    - Rest in liquidbees.
+- Profit Taking
+    - When position delta breaches 0.30 adjust it 0.00 again.
+
+<br/>
+
+---
+
+<br/>
+
+### Equity (Long Only)
 
 - Investment Universe
     - Stocks in the Nifty 500 Index.
@@ -111,7 +138,7 @@
     - Nifty Futures.
     - Nifty Bank Futures.
 - Leverage
-    - Around 1.5X-2X.
+    - Around 1.5X-2.5X.
 
 <br/>
 
@@ -134,7 +161,7 @@
     - Cotton.
     - CPO.
 - Leverage
-    - Around 1.25X-1.75X.
+    - Around 1.25X-2X.
 
 <br/>
 
@@ -142,7 +169,7 @@
 
 <br/>
 
-### Discretionary (Stocks)
+### Discretionary
 
 - Investment Universe 
     - Stocks in the Nifty 500 Index.
@@ -165,21 +192,6 @@
     - All remaining at trailing stop loss - 2.
 - Benchmark - Nifty 500.
 
-<br/>
-
----
-
-<br/>
-
-### Others
-
-- Allocate to -
-    - Goldbees - 10%.
-    - N100 - 10%.
-    - Tail Protection - 5%
-        - Long ATM Put 6-12 months out.
-        - Allocate 2.5% per tranche.
-    
 <br/>
 
 ---
